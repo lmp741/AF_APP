@@ -8,8 +8,8 @@
     "dev": "npx expo start",
     "web": "npx expo start --web",
     "build:web": "npx expo export --platform web",
-    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build:web",
+    "deploy": "gh-pages -d dist",
     "lint": "expo lint"
   },
   "dependencies": {
