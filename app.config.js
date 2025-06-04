@@ -30,7 +30,7 @@ module.exports = {
     bundler: "metro",
     output: "static",
     favicon: "./assets/images/favicon.png",
-    publicPath: "/af_sport_app/",
+    publicPath: "/AF_APP/",
     template: "./web/index.html",
     build: {
       babel: {
@@ -41,7 +41,7 @@ module.exports = {
   extra: {
     router: {
       origin: "https://lmp741.github.io",
-      basename: "/af_sport_app"
+      basename: "/AF_APP"
     }
   },
   plugins: [
